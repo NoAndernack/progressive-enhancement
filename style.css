@@ -1,0 +1,166 @@
+blockquote {
+    max-width: 50%;
+    font-size: 160%;
+    padding: 30px;
+    margin: 80px auto;
+    background-color:rgba(128, 128, 128, 0.521);
+    border-left:3px firebrick dotted;
+    font-style:italic;
+  }
+body{
+    width:90%;
+    margin:auto; 
+    color:blanchedalmond;
+    background-image:url("fond.jpg");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+p {
+    
+    font-size: 16px;
+    margin-bottom: 20px;
+    color:rgb(231, 231, 231);
+    font-weight: bold;
+    }
+
+    a:hover {
+        text-decoration: underline; 
+        color: rgb(113, 0, 128)) 
+    }
+    a {
+        color: rgb(45, 131, 180);
+        text-decoration:none
+    }
+    a:visited {
+        color: hotpink;
+    }
+    
+    table {
+        border:1px solid;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    table,th,td{
+        border:1px solid;
+        color: black;
+
+    }
+    th,td {
+        padding:8px;
+        text-align: left;
+        font-weight: bold;
+    }
+    th {
+        font-weight: bold;
+    }
+
+    
+ 
+
+q{
+    background-color: rgb(12, 66, 87);
+    font-style:italic;
+}
+.neighbors {
+    border-left:3px rgb(255, 255, 255) solid
+      }
+.farmer {
+    border-left:3px rgb(231, 33, 132) solid
+}
+header>blockquote {
+    background-color:yellow;
+    color:black;
+}
+.good,.bad {
+    text-transform: capitalize;
+}
+.good{
+    color:rgb(131, 190, 131)
+}   
+.bad {
+    color:rgb(173, 68, 68)
+    
+}
+tr:nth-child(odd) { 
+    background-color: rgb(104, 101, 101); 
+}
+    tr:nth-child(even) { 
+        background-color: rgb(255, 255, 255); 
+    }
+        .good1 {
+            background-image: url("bien.png");
+            background-repeat: no-repeat;
+            padding-bottom: 40px;
+            background-position: 16em;
+        }
+        .bad1 {
+            background-image: url("mal.png");
+            background-repeat: no-repeat;
+            
+            padding-bottom: 40px;
+            background-position: 16em;
+        }
+        .cat {
+            background-image: url("chat.png");
+            background-repeat: no-repeat;
+           
+            padding-bottom: 30px;
+            background-position: 16em;
+        }
+        .premier{
+            font-weight: bold;
+        }
+        .img1{
+            width:50%;
+            margin:20px;
+            border-radius: 3em;
+            
+           /* margin:20px;
+            float:right ;*/
+          
+        }
+        .img2, .fig1 {
+            width:50%;
+            margin:20px;
+            border-radius: 3em;
+            position:relative;
+            left:35em
+            
+            /*
+            padding:40px;
+            float:left ;
+            */
+        }.img3{
+            
+            margin:20px;
+            border-radius: 3em;
+            
+            /*
+            padding:40px;
+            float:right ; */
+        }
+    .box1 {
+        display:flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .para1{
+        display:flex;
+    }
+    .box2{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        
+
+    }
+    
+        
+    
